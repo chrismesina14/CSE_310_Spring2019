@@ -1,0 +1,33 @@
+PARTNO      PLD01;
+NAME        CODECONV;
+DATE        05/07/2019;
+REV         01;
+DESIGNER    Christian Mesina and Jared Acosta;
+COMPANY     CSUSB;
+DEVICE      G16V8A;
+ASSEMBLY    BREADBOARD;
+LOCATION    JBH-356;
+
+/* Inputs */
+PIN 1 = W;
+PIN 2 = X;
+PIN 3 = Y;
+PIN 4 = Z;
+
+/* Outputs */
+PIN 12 = a;
+PIN 13 = b;
+PIN 14 = c;
+PIN 15 = d;
+PIN 16 = e;
+PIN 17 = f;
+PIN 18 = g;
+
+/* Boolean Expressions */
+a = Y && X || !W && Y || !X && !Z || !W && X && Z || W && !X && !Y || W && !Z;
+b = !W && Y && Z || !X && !Y || !X && !Z || !W && !Y && !Z || W && !Y && Z;
+c = W && !X || !W && X || !Y && Z || !X && !Y || !X && Z;
+d = W && !Y || !X && Y && Z || !W && !X && !Z || X && !Y && Z || X && Y && !Z;
+e = W && X || Y && !Z || !X && !Z || W && !X && Y;
+f = W && !X || !W && X || !Y && !Z || W && Y;
+g = W && !X || Y && !Z || W && Z || !W && X && !Y || !X && Y;

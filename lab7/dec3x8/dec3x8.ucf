@@ -1,0 +1,14 @@
+//4 slide switches (inputs)
+NET A[0]	LOC = F12;
+NET A[1]	LOC = G12;
+NET A[2] LOC = H14;
+
+//leds
+NET Y[0]	LOC = K12;
+NET Y[1]	LOC = P14;
+NET Y[2]	LOC = L12;
+NET Y[3]	LOC = N14;
+NET Y[4]	LOC = P13;
+NET Y[5]	LOC = N12;
+NET Y[6]	LOC = P12;
+NET Y[7]	LOC = P11;

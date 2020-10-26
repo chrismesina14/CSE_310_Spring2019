@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/csusb.edu/005319687/CSE310/lab2/HelloProject/hello_world_isim_beh.exe" -prj "/home/csusb.edu/005319687/CSE310/lab2/HelloProject/hello_world_beh.prj" "work.hello_world" "work.glbl" 

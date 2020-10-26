@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/csusb.edu/005319687/CSE310/lab7/dec3x8/dec3x8.xst" -ofn "/home/csusb.edu/005319687/CSE310/lab7/dec3x8/dec3x8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 dec3x8.ngc dec3x8.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dec3x8.ucf -p xc7a100t-csg324-3 dec3x8.ngc dec3x8.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o dec3x8_map.ncd dec3x8.ngd dec3x8.pcf 
+xst -intstyle ise -ifn "/home/csusb.edu/005319687/CSE310/lab7/dec3x8/dec3x8.xst" -ofn "/home/csusb.edu/005319687/CSE310/lab7/dec3x8/dec3x8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dec3x8.ucf -p xc7a100t-csg324-3 dec3x8.ngc dec3x8.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o dec3x8_map.ncd dec3x8.ngd dec3x8.pcf 
+xst -intstyle ise -ifn "/home/csusb.edu/005319687/CSE310/lab7/dec3x8/dec3x8.xst" -ofn "/home/csusb.edu/005319687/CSE310/lab7/dec3x8/dec3x8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dec3x8.ucf -p xc7a100t-csg324-3 dec3x8.ngc dec3x8.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o dec3x8_map.ncd dec3x8.ngd dec3x8.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dec3x8.ucf -p xc7a100t-csg324-3 dec3x8.ngc dec3x8.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o dec3x8_map.ncd dec3x8.ngd dec3x8.pcf 
